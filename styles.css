@@ -1,0 +1,60 @@
+/* body {
+    padding: 100px;
+} */
+
+.ouch h1 {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    font-style: italic;
+}
+
+.ouch {
+    margin: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+h6 {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 25;
+    font-size: 10px;
+    font-style: normal;
+}
+
+p{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* This should target the actual carousel div (not .carousel-slide unless you're using that as a custom class) */
+#myCarousel {
+    max-width: 1000px;
+    margin: 0 auto; /* centers block-level element horizontally */
+}
+
+/* Center the image inside each carousel item */
+.carousel-item img {
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+    height: auto; /* let image height scale naturally */
+}
+
+/* Optional: force consistent height (but make sure images are cropped correctly) */
+.carousel-item {
+    text-align: center;
+}
+
+/* Invert carousel controls for visibility (your code is fine here) */
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
